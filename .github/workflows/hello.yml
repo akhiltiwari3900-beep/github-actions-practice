@@ -1,0 +1,15 @@
+YAML
+
+
+name:Hello Github Actions
+
+on:
+push:
+workflow_dispatch:
+
+jobs:
+hello:
+runs-on: ubuntu-latest
+steps:
+-name:Say Hello
+run: echo "hello github action is working."
