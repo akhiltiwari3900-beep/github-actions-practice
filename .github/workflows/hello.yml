@@ -1,15 +1,13 @@
 name: Hello world Action
 
-on:
+'on':
 push:
  workflow_dispatch:
 
- jobs:
+jobs:
   hello:
   runs-on: ubuntu-latest
   steps:
   - name: Say Hello
-    run: echo "hello world github actions is working!"
-
-
+    run: echo "Hello world!" Github Actions is working."
 
