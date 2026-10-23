@@ -2,12 +2,14 @@ name: Hello world Action
 
 'on':
 push:
+ branches:
+    - master
  workflow_dispatch:
 
 jobs:
   hello:
-  runs-on: ubuntu-latest
-  steps:
-  - name: Say Hello
-    run: echo "Hello world!" Github Actions is working."
+   runs-on: ubuntu-latest
+   steps:
+    - name: Say Hello
+      run: echo "Hello world!" Github Actions is working."
 
