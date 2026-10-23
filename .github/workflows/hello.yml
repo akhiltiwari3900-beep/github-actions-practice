@@ -1,7 +1,7 @@
 YAML
 
 
-name:Hello Github Actions
+name: Hello Github Actions
 
 on:
 push:
